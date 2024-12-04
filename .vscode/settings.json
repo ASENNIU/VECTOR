@@ -1,0 +1,26 @@
+{
+   "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always"
+        },
+        "editor.formatOnSave": true,
+    },
+    "isort.args":["--profile", "black"],
+    "mypy-type-checker.importStrategy": "useBundled",
+    "mypy-type-checker.args": [
+        "--follow-imports=skip",
+        "--ignore-missing-imports=True",
+        "--show-column-numbers=True",
+        "--warn_return_any=True",
+        "--warn-unreachable=True",
+    ],
+    "pylint.importStrategy": "useBundled",
+    "pylint.args": [
+        "--disable=invalid-name,missing-module-docstring",
+        "--disable=W0612,W0631,W0703,W0621,W0613,W0611,W1308,C0411,C0111,C0103,C0301,C0304,C0305,E1101,R0913,R0914,R0915,R0903" ,
+    ],
+    "python.defaultInterpreterPath": "/home/leon/anaconda3/envs/MultiModal/bin/python",
+    "python.autoComplete.extraPaths": ["/home/leon/anaconda3/envs/MultiModal/lib/python3.7/site-packages"]
+
+}

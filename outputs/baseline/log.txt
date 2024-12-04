@@ -1,0 +1,133 @@
+2024-12-04 21:13:30,705:INFO: #################### EXPERIMENTS SETUP ####################
+2024-12-04 21:13:30,705:INFO: exp_name: baseline, model_path: ./outputs/baseline
+2024-12-04 21:13:30,705:INFO: loss: clip
+2024-12-04 21:13:30,705:INFO: device: cuda:1
+2024-12-04 21:13:30,705:INFO: load epoch: -1
+2024-12-04 21:13:30,705:INFO: epoch nums: 5
+2024-12-04 21:14:20,650:INFO: #################### EXPERIMENTS SETUP ####################
+2024-12-04 21:14:20,650:INFO: exp_name: baseline, model_path: ./outputs/baseline
+2024-12-04 21:14:20,650:INFO: loss: clip
+2024-12-04 21:14:20,650:INFO: device: cuda:1
+2024-12-04 21:14:20,650:INFO: load epoch: -1
+2024-12-04 21:14:20,650:INFO: epoch nums: 5
+2024-12-04 21:16:12,299:INFO: #################### EXPERIMENTS SETUP ####################
+2024-12-04 21:16:12,299:INFO: exp_name: baseline, model_path: ./outputs/baseline
+2024-12-04 21:16:12,299:INFO: loss: clip
+2024-12-04 21:16:12,299:INFO: device: cuda:1
+2024-12-04 21:16:12,299:INFO: load epoch: -1
+2024-12-04 21:16:12,299:INFO: epoch nums: 5
+2024-12-04 21:16:25,865:INFO: freeze vision encoder
+2024-12-04 21:16:29,171:INFO: load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth
+2024-12-04 21:20:04,463:INFO: #################### EXPERIMENTS SETUP ####################
+2024-12-04 21:20:04,463:INFO: exp_name: baseline, model_path: ./outputs/baseline
+2024-12-04 21:20:04,463:INFO: loss: clip
+2024-12-04 21:20:04,463:INFO: device: cuda:1
+2024-12-04 21:20:04,463:INFO: load epoch: -1
+2024-12-04 21:20:04,463:INFO: epoch nums: 5
+2024-12-04 21:20:17,608:INFO: freeze vision encoder
+2024-12-04 21:20:20,541:INFO: load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth
+2024-12-04 21:22:18,518:INFO: #################### EXPERIMENTS SETUP ####################
+2024-12-04 21:22:18,518:INFO: exp_name: baseline, model_path: ./outputs/baseline
+2024-12-04 21:22:18,518:INFO: loss: clip
+2024-12-04 21:22:18,518:INFO: device: cuda:1
+2024-12-04 21:22:18,518:INFO: load epoch: -1
+2024-12-04 21:22:18,518:INFO: epoch nums: 5
+2024-12-04 21:22:31,962:INFO: freeze vision encoder
+2024-12-04 21:22:34,874:INFO: load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth
+2024-12-04 21:22:37,202:INFO: use clip loss
+2024-12-04 21:23:41,103:INFO: #################### EXPERIMENTS SETUP ####################
+2024-12-04 21:23:41,103:INFO: exp_name: baseline, model_path: ./outputs/baseline
+2024-12-04 21:23:41,103:INFO: loss: clip
+2024-12-04 21:23:41,103:INFO: device: cuda:1
+2024-12-04 21:23:41,103:INFO: load epoch: -1
+2024-12-04 21:23:41,103:INFO: epoch nums: 5
+2024-12-04 21:23:54,766:INFO: freeze vision encoder
+2024-12-04 21:23:57,756:INFO: load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth
+2024-12-04 21:24:01,648:INFO: use clip loss
+2024-12-04 21:24:01,653:INFO: load_epoch: -1
+2024-12-04 21:24:01,653:INFO: Loading checkpoint: ./outputs/baseline/model_best.pth ...
+2024-12-04 21:24:26,402:INFO: #################### EXPERIMENTS SETUP ####################
+2024-12-04 21:24:26,402:INFO: exp_name: baseline, model_path: ./outputs/baseline
+2024-12-04 21:24:26,402:INFO: loss: clip
+2024-12-04 21:24:26,403:INFO: device: cuda:1
+2024-12-04 21:24:26,403:INFO: load epoch: None
+2024-12-04 21:24:26,403:INFO: epoch nums: 5
+2024-12-04 21:24:32,103:WARNING: '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /bert-base-uncased/resolve/main/vocab.txt (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(104, 'Connection reset by peer')))"), '(Request ID: 234f13a7-ef64-485d-ba4d-4e51676fbec7)')' thrown while requesting HEAD https://huggingface.co/bert-base-uncased/resolve/main/vocab.txt
+2024-12-04 21:29:38,539:INFO: #################### EXPERIMENTS SETUP ####################
+2024-12-04 21:29:38,539:INFO: exp_name: baseline, model_path: ./outputs/baseline
+2024-12-04 21:29:38,539:INFO: loss: clip
+2024-12-04 21:29:38,539:INFO: device: cuda:1
+2024-12-04 21:29:38,539:INFO: load epoch: None
+2024-12-04 21:29:38,539:INFO: epoch nums: 5
+2024-12-04 21:29:52,788:INFO: freeze vision encoder
+2024-12-04 21:29:56,173:INFO: load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth
+2024-12-04 21:29:59,082:INFO: use clip loss
+2024-12-04 21:53:03,890:INFO: #################### EXPERIMENTS SETUP ####################
+2024-12-04 21:53:03,890:INFO: exp_name: baseline, model_path: ./outputs/baseline
+2024-12-04 21:53:03,890:INFO: loss: clip
+2024-12-04 21:53:03,890:INFO: device: cuda:1
+2024-12-04 21:53:03,890:INFO: load epoch: None
+2024-12-04 21:53:03,890:INFO: epoch nums: 5
+2024-12-04 22:07:12,937:INFO: #################### EXPERIMENTS SETUP ####################
+2024-12-04 22:07:12,937:INFO: exp_name: baseline, model_path: ./outputs/baseline
+2024-12-04 22:07:12,937:INFO: loss: clip
+2024-12-04 22:07:12,937:INFO: device: cuda:1
+2024-12-04 22:07:12,937:INFO: load epoch: None
+2024-12-04 22:07:12,937:INFO: epoch nums: 5
+2024-12-04 22:07:27,160:INFO: freeze vision encoder
+2024-12-04 22:07:30,182:INFO: load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth
+2024-12-04 22:07:32,612:INFO: use clip loss
+2024-12-04 22:08:32,356:INFO: #################### EXPERIMENTS SETUP ####################
+2024-12-04 22:08:32,357:INFO: exp_name: baseline, model_path: ./outputs/baseline
+2024-12-04 22:08:32,357:INFO: loss: clip
+2024-12-04 22:08:32,357:INFO: device: cuda:1
+2024-12-04 22:08:32,357:INFO: load epoch: None
+2024-12-04 22:08:32,357:INFO: epoch nums: 5
+2024-12-04 22:08:46,280:INFO: freeze vision encoder
+2024-12-04 22:08:49,253:INFO: load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth
+2024-12-04 22:08:50,626:INFO: use clip loss
+2024-12-04 22:14:28,145:INFO: #################### EXPERIMENTS SETUP ####################
+2024-12-04 22:14:28,145:INFO: exp_name: baseline, model_path: ./outputs/baseline
+2024-12-04 22:14:28,145:INFO: loss: clip
+2024-12-04 22:14:28,145:INFO: device: cuda:1
+2024-12-04 22:14:28,145:INFO: load epoch: None
+2024-12-04 22:14:28,145:INFO: epoch nums: 5
+2024-12-04 22:14:42,753:INFO: freeze vision encoder
+2024-12-04 22:14:45,746:INFO: load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth
+2024-12-04 22:14:48,932:INFO: use clip loss
+2024-12-04 22:20:32,889:INFO: #################### EXPERIMENTS SETUP ####################
+2024-12-04 22:20:32,889:INFO: exp_name: baseline, model_path: ./outputs/baseline
+2024-12-04 22:20:32,889:INFO: loss: clip
+2024-12-04 22:20:32,889:INFO: device: cuda:1
+2024-12-04 22:20:32,889:INFO: load epoch: None
+2024-12-04 22:20:32,889:INFO: epoch nums: 5
+2024-12-04 22:20:47,447:INFO: freeze vision encoder
+2024-12-04 22:20:50,487:INFO: load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth
+2024-12-04 22:20:54,110:INFO: use clip loss
+2024-12-04 22:21:44,177:INFO: #################### EXPERIMENTS SETUP ####################
+2024-12-04 22:21:44,177:INFO: exp_name: baseline, model_path: ./outputs/baseline
+2024-12-04 22:21:44,177:INFO: loss: clip
+2024-12-04 22:21:44,177:INFO: device: cuda:1
+2024-12-04 22:21:44,177:INFO: load epoch: None
+2024-12-04 22:21:44,177:INFO: epoch nums: 5
+2024-12-04 22:22:01,734:INFO: freeze vision encoder
+2024-12-04 22:22:06,602:INFO: load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth
+2024-12-04 22:22:11,593:INFO: use clip loss
+2024-12-04 22:23:32,023:INFO: #################### EXPERIMENTS SETUP ####################
+2024-12-04 22:23:32,023:INFO: exp_name: baseline, model_path: ./outputs/baseline
+2024-12-04 22:23:32,023:INFO: loss: clip
+2024-12-04 22:23:32,023:INFO: device: cuda:1
+2024-12-04 22:23:32,023:INFO: load epoch: None
+2024-12-04 22:23:32,023:INFO: epoch nums: 5
+2024-12-04 22:23:46,243:INFO: freeze vision encoder
+2024-12-04 22:23:49,627:INFO: load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth
+2024-12-04 22:23:53,585:INFO: use clip loss
+2024-12-04 22:24:46,968:INFO: #################### EXPERIMENTS SETUP ####################
+2024-12-04 22:24:46,969:INFO: exp_name: baseline, model_path: ./outputs/baseline
+2024-12-04 22:24:46,969:INFO: loss: clip
+2024-12-04 22:24:46,969:INFO: device: cuda:1
+2024-12-04 22:24:46,969:INFO: load epoch: None
+2024-12-04 22:24:46,969:INFO: epoch nums: 5
+2024-12-04 22:25:01,575:INFO: freeze vision encoder
+2024-12-04 22:25:04,643:INFO: load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth
+2024-12-04 22:25:08,831:INFO: use clip loss
