@@ -127,8 +127,8 @@ class Trainer(BaseTrainer):
                 data["text"] = data["text"]
                 data["video"] = data["video"].to(self.device)
                 video_embeds, text_embeds = self.model(data)
-                text_embeds_arr.append(text_embeds)
-                vis_embeds_arr.append(video_embeds)
+                text_embeds_arr.append(text_embeds.cpu())
+                vis_embeds_arr.append(video_embeds.cpu())
                 
                 sims_batch = sim_matrix_training(text_embeds, video_embeds, "avg")
                 

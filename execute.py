@@ -58,6 +58,7 @@ def main():
     preprocess_cfg = cfg.preprocess
     vis_processor, txt_processor = load_preprocess(preprocess_cfg)
     
+    # prepare dataloader
     train_data_loader = DataFactory.get_data_loader(config, split_type='train', shuffle=True, 
                                                     vis_processor=vis_processor, txt_processor=txt_processor)
     valid_data_loader = DataFactory.get_data_loader(config, split_type='test', shuffle=False, 
